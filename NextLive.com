@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meine GTA5-Website</title>
     <style>
       /* Hier können Sie Ihre CSS-Styles definieren */
@@ -22,6 +23,12 @@
         margin: 10px;
         padding: 20px;
         width: 300px;
+      }
+      /* Hier können Sie responsive Styles definieren */
+      @media (max-width: 500px) {
+        .card {
+          width: 100%;
+        }
       }
     </style>
   </head>
